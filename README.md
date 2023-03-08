@@ -3,7 +3,14 @@ Since the Original website is down, I uploaded here the Original files from http
 
 only wildlife.wmv is missing.
 
-**_ORIGINAL: How to install, compile, and run my code._**
+***ORIGNAL OWNER***   
+Dr. Andrew Davison  
+Dept. of Computer Engineering  
+Prince of Songkla University  
+Hat yai, Songkhla 90112, Thailand  
+E-mail: ad@fivedots.coe.psu.ac.th  
+
+***ORIGINAL: How to install, compile, and run my code.***
 
 # Installing the code for "Java LibreOffice Programming"
 
