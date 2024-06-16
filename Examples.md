@@ -8,10 +8,11 @@ While most examples involve Java programs interacting with the LibreOffice API, 
 
 ## Part 1: Basics
 ### Chapter 1. LibreOffice API Concepts
-- History and overview of the LibreOffice SDK
-- Office as a process and common structures
-- Interface, Property, Service, and Component concepts
-- Comparison with Basic programming language
+Topics: Some History; Help and Examples for the LibreOffice SDK (loDoc, loGuide); Office as a Process; Common Structures (Interface, Property, Service, and Component); Service and Interface Inheritance Hierarchies; the Frame-Controller-Model (FCM) Relationship; Extensions; Comparison with Basic.
+
+- [Chapter](../Part%201%20Basics/01.%20Concepts.pdf) (400 KB; pdf). Updated: 20th March 2017.
+- [Utilities](../Utils) (Utils/) (184 KB; zip). Updated: 13th Jan. 2017.
+- [How to install, compile, and run my code.](../README.md)
 
 ### Chapter 2. Starting and Stopping
 - Managing LibreOffice lifecycle: starting, closing, and handling crashes
