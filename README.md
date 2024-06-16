@@ -13,9 +13,9 @@ E-mail: ad@fivedots.coe.psu.ac.th
 
 The original text follows from here.
 
-***How to install, compile, and run my code.***
+# How to install, compile, and run my code.
 
-# Installing the code for "Java LibreOffice Programming"
+## Installing the code for "Java LibreOffice Programming"
 
  
 
@@ -31,22 +31,22 @@ I've only tested my code on Windows machines, so this page will limit itself to 
 
 + Check if your machine is 64-bit or 32-bit (e.g. by calling systeminfo from the command line, and looking at the "System Type" entry). If you have a 64-bit machine then you'll have to decide whether to download the 64-bit or 32-bit versions of the JDK and LibreOffice, but make sure the pair you choose have the same "bitness". If you've got a 32-bit machine, then you'll have to get the 32-bit pair of JDK and LibreOffice.
 
-+ Download a Java SE Development Kit (JDK). The Java site uses "x86" as another name for 32-bit. Install it in its default position on your machine. Add the full directory path holding the Java compiler and runtime executables to Window's PATH environment variable. The directory path typically ends with Java\jdk1.8.0_XXX\bin.
++ Download a [Java SE Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). The Java site uses "x86" as another name for 32-bit. Install it in its default position on your machine. Add the full directory path holding the Java compiler and runtime executables to Window's PATH environment variable. The directory path typically ends with Java\jdk1.8.0_XXX\bin.
 
-+ Download LibreOffice. Install it in its default position on your machine. Add the full directory path containing the LibreOffice executable (soffice.exe) to Window's PATH environment variable. The directory path typically ends with LibreOffice 5/program.
++ Download [LibreOffice](https://www.libreoffice.org/download/libreoffice-fresh/). Install it in its default position on your machine. Add the full directory path containing the LibreOffice executable (soffice.exe) to Window's PATH environment variable. The directory path typically ends with LibreOffice 5/program.
   By the way, there are two versions of LibreOffice to choose from, called 'still' and 'fresh'. I usually download 'fresh', but the 'still' version is available here. By the way, if you want to download LibreOffice version 4 instead of the new version 5, that's fine as well.
 
-+ Download the SDK from the same webpage as LibreOffice (for Windows, it's an MSI file). There's no need to get the source code. The installed SDK will appear as an sdk subdirectory in the LibreOffice directory. Optionally download the built in Help as well, but LibreOffice will default to using the online version if Help isn't installed.
++ Download the [SDK](https://www.libreoffice.org/download/libreoffice-fresh/) from the same webpage as LibreOffice (for Windows, it's an MSI file). There's no need to get the source code. The installed SDK will appear as an sdk subdirectory in the LibreOffice directory. Optionally download the built in Help as well, but LibreOffice will default to using the online version if Help isn't installed.
 
-+ Download JNA. There are two files to download (jna.jar and jna-platform.jar) which are listed in the Download section some way down the JNA webpage. Install these files in the directory D:\jna on your machine. This location is used by my compile and run batch files.
++ Download [JNA](https://github.com/java-native-access/jna). There are two files to download (jna.jar and jna-platform.jar) which are listed in the Download section some way down the JNA webpage. Install these files in the directory D:\jna on your machine. This location is used by my compile and run batch files.
 
 
 ## 2. Installing my Utility Classes
 
-The utility classes are in a folder Utils, which can be downloaded as a zipped file. It should be unzipped and placed in a new subdirectory for your LibreOffice programs. This directory can be called anything; mine is called LibreOffice Tests.
+The utility classes are in a folder Utils, which can be downloaded as a [zipped file](/Utils). It should be unzipped and placed in a new subdirectory for your LibreOffice programs. This directory can be called anything; mine is called LibreOffice Tests.
 
 ## 3. Installing my Examples
 
-Links going to the zipped examples can be found in the chapter sections on the main page of this site
+Links going to the zipped examples can be found in the chapter sections on the [main page of this site](Examples.md)
 
 Download the zip file, extract the directory (e.g. Writer Tests), and store in the same directory as the one holding the Utils directory (e.g. in LibreOffice Tests). This organization is used by my compile and run batch files. There is a readme.txt file in each directory, explaining how to compile and run the examples.
