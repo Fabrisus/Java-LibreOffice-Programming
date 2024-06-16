@@ -74,132 +74,278 @@ Topics: Linguistic Tools; Using the Spell Checker; Using the Thesaurus; Grammar 
 
 ## Part 3: Draw & Impress Modules
 ### Chapter 11. Draw/Impress APIs Overview
-- Overview of drawing and presentation document services
-- Manipulating shapes, pages, and slide show APIs
+Topics: Draw Pages and Master Pages; Draw Page Details; API Hierarchy Code Examples; Shapes in a Drawing; Shapes in a Presentation ; The Slide Show APIs.
+
+- Chapter (360 KB; pdf). Updated: 20th March 2017.
+- Examples (Draw Tests/) (1.77 MB; zip). Updated: 15th August 2015.
+- Place Draw Tests/ and Utils/ (see chapter 1) in the same directory. 
 
 ### Chapter 12. Examining a Draw/Impress Document
-- Analyzing slide/page properties, layers, and styles within draw/impress documents
+Topics: Examining Slides/Pages; Page Layers; Styles.
+
+- Chapter (228 KB; pdf). Updated: 20th March 2017.
+- For the examples (Draw Tests/), see chapter 11. 
 
 ### Chapter 13. Drawing Basic Shapes
-- Techniques for drawing basic shapes, text, and inserting math formulas
+Topics: A Black Dashed Line; A Red Ellipse; Filled Rectangles; Text; Shape Names; A Transparent Circle and a Polar Line; A Math Formula as an OLE Shape; Polygons; Multiple Lines, Partial Elipses.
+
+- Chapter (488 KB; pdf). Updated: 20th March 2017.
+- For the examples (Draw Tests/), see chapter 11.
 
 ### Chapter 14. Animation
-- Animation techniques for images and shapes within draw/impress documents
+Topics: Circle Movement; Line Rotation; Animating an Image; The Gallery Module.
+
+- Chapter (292 KB; pdf). Updated: 20th March 2017.
+- For the examples (Draw Tests/), see chapter 11. 
 
 ### Chapter 15. Complex Shapes
-- Working with complex shapes, grouping, and shape compositions
+Topics: Connecting Two Rectangles; Shape Composition (grouping, binding, and combining); Combining with Dispatches; Undoing Composition; Bezier Curves (simple and complex).
+
+- Chapter (404 KB; pdf). Updated: 20th March 2017.
+- For the examples (Draw Tests/), see chapter 11. 
 
 ### Chapter 16. Making Slides
-- Programmatically creating and manipulating slides with shapes and media elements
+Topics: Creating Slides: title, subtitle, bullets, images, video, buttons; Shape Animations; Dispatch Shapes (special symbols, block arrows, 3D shapes, flowchart elements, callouts, and stars); Slide Viewing.
+
+- Chapter (572 KB; pdf). Updated: 20th March 2017.
+- For the examples (Draw Tests/), see chapter 11.
+- wildlife.wmv video (38.5 MB) 
 
 ### Chapter 17. Slide Deck Manipulation
-- Building and modifying slide decks, master pages, and exporting slides as images
+Topics: Deck Building; Master Pages; Adding a Slide to a Deck; Rearranging a Deck; Appending Two Decks; Exporting a Slide as an Image; Extracting the Text from a Deck.
+
+- Chapter (368 KB; pdf). Updated: 20th March 2017.
+- For the examples (Draw Tests/), see chapter 11. 
 
 ### Chapter 18. Slide Shows
-- Controlling slide show presentations programmatically
+Topics: Starting a Slide Show; Play and End a Slide Show Automatically; Play a Slide Show Repeatedly; Play a Custom Slide Show.
+
+- Chapter (236 KB; pdf). Updated: 20th March 2017.
+- For the examples (Draw Tests/), see chapter 11. 
 
 ## Part 4: Calc Modules
 ### Chapter 19. Calc API Overview
-- Overview of spreadsheet document services and data manipulation
+Topics: The Spreadsheet Document; Document Spreadsheets; Spreadsheet Data; The Spreadsheet Service; Cell Range Services; Cell Services; Sheet Cell Ranges.
+
+- Chapter (380 KB; pdf). Updated: 20th March 2017.
+- Examples (Calc Tests/) (372 KB; zip). Updated: 2nd October 2015.
+- Place Calc Tests/ and Utils/ (see chapter 1) in the same directory. 
 
 ### Chapter 20. Spreadsheet Displaying and Creation
-- Displaying spreadsheet documents, creating documents, and managing cell data
+Topics: Displaying a Document; Read-only and Protected Viewing; Active Sheets; Sheet Names; Zooming; Creating a Document; Cell Names and Ranges; Cell Values; Data Arrays; Rows and Columns of Data; Adding a Picture and a Chart.
+
+- Chapter (200 KB; pdf). Updated: 20th March 2017.
+- For the examples (Calc Tests/), see chapter 19. 
 
 ### Chapter 21. Extracting Data
-- Techniques for extracting data from spreadsheet cells and ranges
+Topics: Getting a Cell Value; Getting the Data from a Cell Range; Getting Rows and Columns of Data; Obtaining Cell Ranges by Using Queries; Finding the Used Area with Sheet Cursors.
+
+- Chapter (204 KB; pdf). Updated: 20th March 2017.
+- For the examples (Calc Tests/), see chapter 19. 
 
 ### Chapter 22. Styles
-- Managing spreadsheet styles, cell formatting, and adding borders
+Topics: Obtaining Style Information: the TableCellStyle and TablePageStyle Services; Creating and Using a New Style; Adding Borders.
+
+- Chapter (164 KB; pdf). Updated: 20th March 2017.
+- For the examples (Calc Tests/), see chapter 19. 
 
 ### Chapter 23. Garlic Secrets
-- Advanced techniques like freezing rows, searching, merging cells, and window manipulation
+Topics: Freezing Rows; GeneralFunctions; Sheet Searching; Sheet Range Queries; Hidden Cells; Cell Merging; Splitting Windows; View Panes; View State Data; Active Panes; Inserting Rows and Columns; Shifting Cells.
+
+- Chapter (392 KB; pdf). Updated: 20th March 2017.
+- For the examples (Calc Tests/), see chapter 19. 
 
 ### Chapter 24. Complex Data Manipulation
-- Sorting, generating data, and handling complex text within spreadsheet documents
+Topics: Sorting Data; Generating Data: Automatic, LINEAR Mode, DATE Mode, GROWTH Mode; Fancy Text: borders, headlines, hyperlinks, annotations.
+
+- Chapter (228 KB; pdf). Updated: 20th March 2017.
+- For the examples (Calc Tests/), see chapter 19. 
 
 ### Chapter 25. Monitoring Sheets
-- Monitoring document modifications and cell selections
+Topics: Listening for Document Modifications (XModifyListener); Listening for Application Closing (XTopWindowListener); Listening for Cell Selection (XSelectionChangeListener).
+
+- Chapter (156 KB; pdf). Updated: 20th March 2017.
+- For the examples (Calc Tests/), see chapter 19. 
 
 ### Chapter 26. Search and Replace
-- Iterative searching and replacing text within spreadsheet documents
+opics: XSearchable; XReplaceable; SearchDescriptor; ReplaceDescriptor; Searching Iteratively; Searching For All Matches; Replacing All Matches.
+
+- Chapter (228 KB; pdf). Updated: 20th March 2017.
+- For the examples (Calc Tests/), see chapter 19. 
 
 ### Chapter 27. Functions and Data Analysis
-- Calling spreadsheet functions, pivot tables, and data analysis techniques
+Topics: Calling Calc Functions from Code; Pivot Tables; Goal Seek; Linear and Nonlinear Solving (using SCO, DEPS).
+
+- Chapter (560 KB; pdf). Updated: 20th March 2017.
+- For the examples (Calc Tests/), see chapter 19. 
 
 ## Part 5: Chart Modules
 ### Chapter 28. Chart2 API Overview
-- Overview of charting elements and chart creation techniques
+Topics: Charting Elements; Chart Creation: TableChart, ChartDocument, linking template, diagram, and data source; Modifying Chart Elements: diagram, coordinate system, chart type, data series.
+
+- Chapter (596 KB; pdf). Updated: 20th March 2017.
+- Examples (Chart2 Tests/) (36 KB; zip). Updated: 7th Nov. 2015.
+- Place Chart2 Tests/ and Utils/ (see chapter 1) in the same directory. 
 
 ### Chapter 29. Column Charts
-- Creating column charts with multiple series and 3D effects
+Topics: Creating a Chart Title; Creating Axis Titles; Rotating Axis Titles; What Chart Templates are Available?; Multiple Columns; 3D Pizazz; The Column and Line Chart.
+
+- Chapter (284 KB; pdf). Updated: 20th March 2017.
+- For the examples (Chart2 Tests/), see chapter 28. 
 
 ### Chapter 30. Bar, Pie, Area, Line Charts
-- Creating various types of charts like bar, pie, area, and line charts
+Topics: The Bar Chart; The Pie Chart; 3D Pie; Donuts; The Area Chart; The Line Chart: multiple lines.
+
+- Chapter (412 KB; pdf). Updated: 20th March 2017.
+- For the examples (Chart2 Tests/), see chapter 28. 
 
 ### Chapter 31. XY (Scatter) Charts
-- Creating scatter charts with regression curves and axis scaling
+Topics: A Scatter Chart (with Regressions); Calculating Regressions; Drawing a Regression Curve; Changing Axis Scales; Adding Error Bars.
+
+- Chapter (476 KB; pdf). Updated: 20th March 2017.
+- For the examples (Chart2 Tests/), see chapter 28. 
 
 ### Chapter 32. Bubble, Net, Stock Charts
-- Techniques for creating bubble, net, and stock charts within documents
+Topics: The Bubble Chart; The Net Chart; The Stock Chart: basic and modified candle sticks; Stock Chart and Line Graph.
+
+- Chapter (436 KB; pdf). Updated: 20th March 2017.
+- For the examples (Chart2 Tests/), see chapter 28. 
 
 ### Chapter 33. Using Charts in Other Documents
-- Adding charts to text, slide, and spreadsheet documents programmatically
+Topics: Copy-and-Paste Dispatches; Adding a Chart to a Text Document; Adding a Chart to a Slide Document; Saving the Chart as an Image.
+
+- Chapter (216 KB; pdf). Updated: 20th March 2017.
+- For the examples (Chart2 Tests/), see chapter 28. 
 
 ## Part 6: Base Modules
 ### Chapter 34. From JDBC to the Base API
-- Overview of database modules (sdbc, sdbcx, sdb) and JDBC integration
+Chapter 34. From JDBC to the Base API [Database modules]
+
+Topics: Three Database Modules: sdbc, sdbcx, sdb; A Little JDBC; From JDBC to sdbc.
+
+- Chapter (336 KB; pdf). Updated: 20th March 2017.
+- Examples (Base Tests/) (276 KB; zip). Updated: 13th April 2016.
+- Place Base Tests/ and Utils/ (see chapter 1) in the same directory. 
 
 ### Chapter 35. Examining Base Documents
-- Querying embedded databases, debugging database code, and creating base documents
+Topics: Querying an Embedded HSQLDB Database; Using Metadata when Querying; Debugging Database Code; Creating a Base Document; Processing Multiple SQL Commands; Displaying Table Relationships; Prepared Statements; Scrollable and Updatable Result Sets; Converting a Database to Text.
+
+- Chapter (576 KB; pdf). Updated: 20th March 2017.
+- For the examples (Base Tests/), see chapter 34. 
 
 ### Chapter 36. Using RowSets and Database Context
-- Techniques for using RowSets and database contexts within LibreOffice Base
+Topics: Using RowSets; Using the Database Context; Copying Data From Base To Calc.
+
+- Chapter (260 KB; pdf). Updated: 20th March 2017.
+- For the examples (Base Tests/), see chapter 34. 
 
 ### Chapter 37. Using the Driver Manager
-- Querying various data sources (CSV, Access, Calc spreadsheets, Thunderbird address book)
+Topics: Querying a CSV File; Querying an Access File; Querying a Calc Spreadsheet; Querying a Thunderbird Address Book.
+
+- Chapter (232 KB; pdf). Updated: 20th March 2017.
+- For the examples (Base Tests/), see chapter 34. 
 
 ### Chapter 38. Treating an ODB File as a Zipped Folder
-- Techniques for extracting and querying databases from ODB files
+Topics: Extracting a Database from an ODB File; Querying an Extracted HSQLDB Database; Querying an Extracted Firebird Database.
+
+- Chapter (380 KB; pdf). Updated: 20th March 2017.
+- For the examples (Base Tests/), see chapter 34. 
 
 ## Part 7: Cross-application Modules
 ### Chapter 39. Forms API Overview
-- Overview of the forms API and text-based form examination
+Chapter 39. Forms API Overview [Form structs]
+
+Topics: An Overview of the Forms API; Examining a Text-based Form; Attaching Listeners to a View.
+
+- Chapter (388 KB; pdf). Updated: 20th March 2017.
+- Examples (Forms Tests/) (52 KB; zip). Updated: 14th June 2016.
+- Place Forms Tests/ and Utils/ (see chapter 1) in the same directory. 
 
 ### Chapter 40. Building a Form Programmatically
-- Techniques for creating and managing forms programmatically
+Chapter 40. Building a Form Programmatically [Build a form]
+
+Topics: Creating Controls; Assigning a Data Source to a Form; Creating Data-aware Controls; Attaching Listeners.
+
+- Chapter (376 KB; pdf). Updated: 20th March 2017.
+- For the examples (Forms Tests/), see chapter 39. 
 
 ### Chapter 41. Printing
-- Utilizing Java Print Service for printing in Writer, Impress, and Calc
+Topics: The Java Print Service (JPS); Printing in Office Writer, Impress, Calc; Viewing a Document's Print Properties; Specialized Printing: Writer, Impress, Calc; Hacking the GUI; Command Prompt Printing.
+
+- Chapter (600 KB; pdf). Updated: 20th March 2017.
+- Examples (Printing Tests/) (744 KB; zip). Updated: 26th June 2016.
+- Place Printing Tests/ and Utils/ (see chapter 1) in the same directory. 
 
 ### Chapter 42. Sending E-mail
-- Techniques for sending e-mails using various methods and APIs
+Topics: SimpleSystemMail / SimpleCommandMail; Using the MailServiceProvider Service; Using JavaMail; The Desktop API; Thunderbird Scripting; Office Mail Merge.
+
+- Chapter (468 KB; pdf). Updated: 20th March 2017.
+- Examples (Mail Tests/) (132 KB; zip). Updated: 8th July 2016.
+- Place Mail Tests/ and Utils/ (see chapter 1) in the same directory. 
 
 ### Chapter 43. Using the Clipboard
-- Managing clipboard operations between Office documents and Java applications
+Topics: The Office Clipboard API: adding, retrieving, text, images; Java's Clipboard API adding, retrieving, text, images, 2D arrays; Copy and Pasting in an Office Document: Writer, Calc, Impress, Base.
+
+- Chapter (512 KB; pdf). Updated: 20th March 2017.
+- Examples (Clipboard Tests/) (416 KB; zip). Updated: 21st July 2016.
+- Place Clipboard Tests/ and Utils/ (see chapter 1) in the same directory. 
 
 ### Chapter 44. Office as a GUI Component
-- Integrating LibreOffice as a GUI component in Java applications
+Topics: OOoBean; Wrapping OOoBean in a JPanel; Using the OBeanPanel; Using an Undecorated Office Window; Augmenting the User Interface: a New Toolbar Item; Augmenting the User Interface: a New Menu Item.
+
+- Chapter (500 KB; pdf). Updated: 20th March 2017.
+- Examples (GUI Tests/) (400 KB; zip). Updated: 29th August 2016.
+- Place GUI Tests/ and Utils/ (see chapter 1) in the same directory. 
 
 ## Part 8: Extending LibreOffice
 ### Chapter 45. Coding UNO Components
-- Techniques for coding UNO components and integrating them into LibreOffice
+Topics: Using the RandomSents Component; Writing IDL Definitions; Using idlc.bat; Merging Type Data into a Registry Database; Generating the Java Package and Interface; Creating a Skeleton Component; Compiling the Completed Implementation; Packaging the Component; Installing the Extension; Using a New Component in a Program.
+
+- Chapter (480 KB; pdf). Updated: 20th March 2017.
+- Examples (UNO Comps Tests/) (1.51 MB; zip). Updated: 26th Sept. 2016.
+- Place UNO Comps Tests/ and Utils/ (see chapter 1) in the same directory. 
 
 ### Chapter 46. Add-ons
-- Creating add-ons and extensions for LibreOffice
+Topics: What is an Add-on?; Creating the EzHighlight Add-on; Creating a Partial Add-on Implementation; The FreeMarker-generated EzHighlightAddonImpl; Creating the Dialog; Configuring the Add-on; Building and Installing the OXT File.
+
+- Chapter (616 KB; pdf). Updated: 20th March 2017.
+- Examples (AddOn Tests/) (428 KB; zip). Updated: 14th Oct. 2016.
+- Place AddOn Tests/ and Utils/ (see chapter 1) in the same directory. 
 
 ### Chapter 47. Calc Add-ins
-- Implementing and integrating Calc add-ins using UNO
+Topics: Implementing a Calc Add-in; The IDL definitions of the Functions; XCU creation.
+
+- Chapter (480 KB; pdf). Updated: 20th March 2017.
+- Examples (Addin Tests/) (1.74 MB; zip). Updated: 4th Nov. 2016.
+- Place Addin Tests/ and Utils/ (see chapter 1) in the same directory. 
 
 ### Chapter 48. Event Macros
-- Writing and automating event macros in LibreOffice
+Topics: Macro Locations; Naming Macro Functions; Calling Existing Macros; The LibreLogo Macro; Writing a Simple Event Macro; Automating the Assigning of Event Macros.
+
+- Chapter (652 KB; pdf). Updated: 20th March 2017.
+- Examples (EvMacro Tests/) (636 KB; zip). Updated: 16th Dec. 2016.
+- Place EvMacro Tests/ and Utils/ (see chapter 1) in the same directory. 
 
 ### Chapter 49. Extension and Document Event Macros
-- Techniques for extending LibreOffice with document-based macros
+Topics: Form Macros as an Extension; Loading an XML Dialog; Building a Dialog at Runtime; Storing Macros inside the (Form) Document; Attaching Macros to Other Events; Executing Macros from the Command Line.
+
+- Chapter (528 KB; pdf). Updated: 20th March 2017.
+- For the examples (EvMacro Tests/), see chapter 48. 
 
 ## Part 9: The ODF Format
 ### Chapter 50. Importing XML
-- Techniques for importing XML using XSLT filters and other methods
+Topics: XSLT Filters; Using Filters with Java; Alternatives to XSLT Filters: DOM Parsing, Node and Attribute Data Extraction, JAXB Conversion.
+
+- Chapter (582 KB; pdf). Updated: 20th March 2017.
+- Examples (Filter Tests/) (56 KB; zip). Updated: 6th Jan. 2017.
+- Place Filter Tests/ and Utils/ (see chapter 1) in the same directory. 
 
 ### Chapter 51. Simple ODF
-- Overview of the OpenDocument Format and its Java API (Apache ODF Toolkit)
+Topics: The OpenDocument Format; Doc Information; Unzipping an ODF Doc; the Simple Java API for ODF (Apache ODF Toolkit): making docs (text, sheet, and slides), slide movement, doc concatenation (text, sheet, and slides).
+
+- Chapter (304 KB; pdf). Updated: 20th March 2017.
+- Examples (ODFToolkit Tests/) (544 KB; zip). Updated: 13th Jan. 2017.
+    Place ODFToolkit Tests/ and Utils/ (see chapter 1) in the same directory.
+- A collection of all the libraries needed to get ODF Toolkit to work ("ODFToolkit Libs") (78.7 MB).
+    Updated: 13th Jan. 2017. 
 
