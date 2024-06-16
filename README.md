@@ -1,7 +1,7 @@
-# fivedots
-Since the Original website is down, I uploaded here the Original files from https://fivedots.coe.psu.ac.th/~ad/jlop/
+# Java LibreOffice Programming (JLOP)
+Since the original website is no longer available, I have uploaded the original files from https://fivedots.coe.psu.ac.th/~ad/jlop/ here.
 
-only wildlife.wmv is missing.
+Only wildlife.wmv is missing
 
 ***ORIGNAL OWNER***   
 Dr. Andrew Davison  
@@ -10,7 +10,10 @@ Prince of Songkla University
 Hat yai, Songkhla 90112, Thailand  
 E-mail: ad@fivedots.coe.psu.ac.th  
 
-***ORIGINAL: How to install, compile, and run my code.***
+
+The original text follows from here.
+
+***How to install, compile, and run my code.***
 
 # Installing the code for "Java LibreOffice Programming"
 
