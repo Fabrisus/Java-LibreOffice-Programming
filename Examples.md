@@ -15,39 +15,62 @@ Topics: Some History; Help and Examples for the LibreOffice SDK (loDoc, loGuide)
 - [How to install, compile, and run my code.](./README.md)
 
 ### Chapter 2. Starting and Stopping
-- Managing LibreOffice lifecycle: starting, closing, and handling crashes
-- Document handling: opening, creating, saving, and converting
-- Bug detection and reporting techniques
+Topics: Starting Office; Closing Down/Killing Office; Opening a Document; Creating a Document; Saving; Closing; Document Conversion; Bug Detection and Reporting.
+
+- [Chapter](./Part%201%20Basics/02.%20Starting%20and%20Stopping.pdf) (472 KB; pdf). Updated: 20th March 2017.
+- [Examples](./Part%201%20Basics/OfficeTests) (Office Tests/) (920 KB; zip). Updated: 15th August 2015.
+- Place Office Tests/ and Utils/ (see [chapter 1](/Examples.md#chapter-1-libreoffice-api-concept)) in the same directory. 
 
 ### Chapter 3. Examining
-- Document properties management
-- Utilizing MRI (Mozilla Remote Interface) for document examination
+Topics: Examining Office; Getting and Setting Document Properties; Examining a Document for API Details; Examining a Document Using MRI.
+
+- [Chapter](./Part%201%20Basics/03.%20Examining.pdf) (312 KB; pdf). Updated: 20th March 2017.
+- For the examples (Office Tests/), see [chapter 2](./Part%201%20Basics/01.%20Concepts.pdf). 
 
 ### Chapter 4. Listening, and Other Techniques
-- Event handling with window listeners
-- Office manipulation using JNA (Java Native Access)
-- GUI command dispatching and robot key operations
+Topics: Window Listeners; Office Manipulation with JNA; Dispatching; Robot Keys.
+
+- [Chapter](./Part%201%20Basics/04.%20Listening.pdf) (208 KB; pdf). Updated: 20th March 2017.
+- For the examples (Office Tests/), see [chapter 2](./Part%201%20Basics/01.%20Concepts.pdf). 
 
 ## Part 2: Writer Modules
 ### Chapter 5. Text API Overview
-- Overview of text document services
-- Text cursor operations and text manipulation techniques
+Topics: API Overview; Text Cursors; Extracting Text; Cursor Iteration; Creating Cursors; Creating a Document; Using and Comparing Text Cursors; Inserting/Changing Text in a Document; Text Enumeration; Appending Documents.
+
+- [Chapter](./Part%202%20Writer%20Modules/05.%20Text%20API%20Overview.pdf) (344 KB; pdf). Updated: 20th March 2017.
+- [Examples](./Part%202%20Writer%20Modules/Text%20Tests) (Text Tests/) (304 KB; zip). Updated: 15th August 2015.
+- Place Text Tests/ and Utils/ (see [chapter 1](./Part%201%20Basics/01.%20Concepts.pdf)) in the same directory. 
 
 ### Chapter 6. Text Styles
-- Working with text styles: creation, application, and management
-- Paragraph and word styling, hyperlink styling, and text numbering
+Topics: Five Style Families; Properties; Listing Styles; Creating a Style; Applying Styles; Paragraph/Word Styles; Hyperlink Styling; Text Numbering; Headers and Footers.
+
+- [Chapter](./Part%202%20Writer%20Modules/06.%20Text%20Styles.pdf) (396 KB; pdf). Updated: 20th March 2017.
+- For the examples (Text Tests/), see [chapter 5](./Part%202%20Writer%20Modules/05.%20Text%20API%20Overview.pdf). 
 
 ### Chapter 7. Text Content Other than Strings
-- Accessing and manipulating text frames, embedded objects, text fields, and bookmarks
+Topics: Accessing Text Content; Text Frames; Embedded Objects (Math Formulae); Text Fields; Text Tables; Bookmarks.
+
+- [Chapter](./Part%202%20Writer%20Modules/07.%20Non-text%20Content.pdf) (528 KB; pdf). Updated: 20th March 2017.
+- For the examples (Text Tests/), see [chapter 5](./Part%202%20Writer%20Modules/05.%20Text%20API%20Overview.pdf). 
 
 ### Chapter 8. Graphic Content
-- Handling graphics and linked images/shapes within text documents
+Topics: Graphics; Linked Images/Shapes.
+
+- [Chapter](./Part%202%20Writer%20Modules/08.%20Graphic%20Content.pdf) (252 KB; pdf). Updated: 20th March 2017.
+- For the examples (Text Tests/), see [chapter 5](./Part%202%20Writer%20Modules/05.%20Text%20API%20Overview.pdf). 
 
 ### Chapter 9. Text Search and Replace
-- Techniques for text searching and batch text replacement within documents
+Topics: Finding the First Matching Phrase; Replacing all the Matching Words; Finding all Matching Phrases.
+
+- [Chapter](./Part%202%20Writer%20Modules/09.%20Text%20Search.pdf) (144 KB; pdf). Updated: 20th March 2017.
+- For the examples (Text Tests/), see [chapter 5](./Part%202%20Writer%20Modules/05.%20Text%20API%20Overview.pdf).
 
 ### Chapter 10. The Linguistics API
-- Using linguistic tools like spell checkers, thesauri, and grammar checkers within text documents
+Topics: Linguistic Tools; Using the Spell Checker; Using the Thesaurus; Grammar Checking; Guessing the Language used in a String; Spell Checking and Grammar Checking a Document.
+
+- [Chapter](./Part%202%20Writer%20Modules/10.%20Linguistics.pdf) (628 KB; pdf). Updated: 20th March 2017.
+- [Examples](./Part%201%20Basics/Lingu%20Tests) (Lingu Tests/) (40 KB; zip). Updated: 2nd August 2016.
+- Place Lingu Tests/ and Utils/ (see [chapter 1](/Examples.md#chapter-1-libreoffice-api-concept) ) in the same directory. 
 
 ## Part 3: Draw & Impress Modules
 ### Chapter 11. Draw/Impress APIs Overview
